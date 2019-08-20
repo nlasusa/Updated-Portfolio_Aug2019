@@ -25,18 +25,14 @@ $(".img5").on('click', function(){
 });
 
 $("#link1").on('click', function(){
-    window.location.href = "https://nlasusa.github.io/unit-4-game/";
-});
-
-$("#link2").on('click', function(){
-    window.location.href = "https://nlasusa.github.io/TriviaGame/";
+    window.location.href = "https://lasusan-friend-finder.herokuapp.com/home.html";
 });
 
 $("#link3").on('click', function(){
     window.location.href = "https://nlasusa.github.io/train-schedule/";
 });
 
-$("#link4").on('click', function(){
+$("#link2").on('click', function(){
     window.location.href = "https://nlasusa.github.io/project1/";
 });
 
@@ -53,5 +49,10 @@ $("#refresh-button2").on('click', function (){
 });
 
 $("#bio").on('click', function (){
+    window.location.href = "aboutme.html";
+});
+
+
+$(".fa-phone").on('click', function (){
     window.location.href = "aboutme.html";
 });

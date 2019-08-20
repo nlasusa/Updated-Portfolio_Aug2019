@@ -17,17 +17,22 @@ body, html {
     background-size: cover;
   }
 
-.img1 { background-image: url("../images/white2.jpg"); height: 70%; }
+.img1 { background-image: url("../images/white2.jpg"); height: 80%; }
 .img2 { background-image: url("../images/daisy.jpg"); height: 60%; margin-top: auto; }
 .img3 { background-image: url("../images/office.jpg"); height: 75%; }
 .img4 { background-image: url("../images/flowers.jpg"); height: 80%; }
 .img5 { background-image: url("../images/dots.jpg"); height: 80%; }
+.img6 { background-image: url("../images/cartoon.jpg"); height: 100%; }
+.img7 { background-image: url("../images/plants.jpg"); height: 80%; }
+.img8 { background-image: url("../images/cats.jpg"); height: 80%; }
+.img9 { background-image: url("../images/huey.jpg"); height: 80%; }
+.img10 { background-image: url("../images/blue.jpg"); height: 80%; }
+.img11 { background-image: url("../images/white.jpg"); height: 50%; }
 
 #title {
     font-family:  'Unica One', cursive;
     font-size: 85px;
     text-align: center;
-    padding: 0px;
 }
 
 #title2 {
@@ -48,6 +53,8 @@ body, html {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     text-align: center;
+    float: right; 
+    color: black;
 }
 
 .row1 {
@@ -85,19 +92,15 @@ body, html {
 }
 
 .fa-linkedin {
-    margin-bottom: 35px;
-    margin: 46px;
-    font-size: 40px; 
-    color: #6F666F;
     cursor: pointer;
+    font-size: 17px; 
+    color: black;
 }
 
+
 .fa-github {
-    margin-bottom: 35px;
-    margin: 46px;
-    font-size: 40px; 
-    color: #6F666F;
     cursor: pointer;
+    font-size: 17px; 
 }
 
 #circle1, #circle2, #circle3, #circle4 {
@@ -110,29 +113,6 @@ body, html {
     cursor: pointer;
 }
 
-#circle1:hover, .fa-laptop:hover {
-    background-color: #6F666F;
-    color: white; 
-    cursor: pointer;
-}
-
-#circle2:hover, .fa-address-card:hover {
-    background-color: #6F666F;
-    color: white; 
-    cursor: pointer;
-}
-
-#circle3:hover, .fa-linkedin:hover {
-    background-color: #6F666F;
-    color: white; 
-    cursor: pointer;
-}
-  
-#circle4:hover, .fa-github:hover {
-    background-color: #6F666F;
-    color: white; 
-    cursor: pointer;
-}
 
 .card-footer {
     color:  black;;
@@ -166,8 +146,7 @@ body, html {
 }
 
 #imgbox {
-    margin-top: 40px; 
-    float: left; 
+    float: right;
 }
 
 #bio {
@@ -195,7 +174,7 @@ body, html {
     margin-top: 140px; 
     text-align: center; 
     font-size: 82px; 
-    color: #EF4EC4;
+    color: #FE5DD3;
     margin-left: 70px; 
     text-shadow:
 		-1px -1px 0 #000,
@@ -204,6 +183,25 @@ body, html {
 		1px 1px 0 #000;
 }
 
+#saying7 {
+    font-family: 'Pacifico', cursive;
+    text-align: left; 
+    font-size: 70px; 
+    color: orange;
+    text-shadow:
+		-1.5px -1.5px 0 hotpink,
+		1.5px -1.5px 0 hotpink,
+		-1.5px 1.5px 0 hotpink,
+		1.5px 1.5px 0 hotpink
+}
+
+#saying8 {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px; 
+    color: #A75BFE;
+}
+
+
 #saying1 {
     font-family: 'Monoton', cursive;
     font-size: 74px;
@@ -211,6 +209,15 @@ body, html {
     margin-top: 240px; 
     text-align: center; 
     color: black;
+    cursor: pointer;
+}
+
+#saying5 {
+    font-family: 'Monoton', cursive;
+    font-size: 90px;
+    margin: auto; 
+    margin-top: 240px; 
+    text-align: center; 
 }
 
 /* .fa-lightbulb {
@@ -254,8 +261,8 @@ p {
 
 #saying3 {
     font-family: 'Pacifico', cursive;
-    font-size: 62px; 
-    color: #428AE8;
+    font-size: 68px; 
+    color: #52A5F9;
     text-shadow:
 		-1px -1px 0 white,
 		1px -1px 0 white,
@@ -285,7 +292,43 @@ p {
     cursor: pointer;
 }
 
-#link1:hover, #link2:hover, #link3:hover, #link4:hover, #link5:hover {
+.carousel-caption {
+    font-family: 'Oswald', sans-serif;
+    font-size:45px; 
+    color: black;
+    float: center; 
+    background-color: hotpink;
+    opacity: 0.9; 
+    width: 70%;
+    margin-right: 120px; 
+    margin-left: -38px;
+    cursor: pointer;
+}
+
+#link1, #link2 {
+    margin-left: 20px;  
+}
+
+.fa-share {
+    color: black; 
+    font-size: 45px;
+    text-shadow: -1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+
+project {
+    float: right; 
+    clear: left; 
+    font-family: 'Oswald', sans-serif;
+    font-size:45px; 
+}
+
+a {
+    color: black;
+}
+
+/* #link1:hover, #link2:hover, #link3:hover, #link4:hover, #link5:hover {
     cursor: pointer;
     border: 2px solid hotpink; 
-}
