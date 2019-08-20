@@ -1,0 +1,291 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }* 
+  
+{
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 25%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.img1 { background-image: url("../images/white2.jpg"); height: 70%; }
+.img2 { background-image: url("../images/daisy.jpg"); height: 60%; margin-top: auto; }
+.img3 { background-image: url("../images/office.jpg"); height: 75%; }
+.img4 { background-image: url("../images/flowers.jpg"); height: 80%; }
+.img5 { background-image: url("../images/dots.jpg"); height: 80%; }
+
+#title {
+    font-family:  'Unica One', cursive;
+    font-size: 85px;
+    text-align: center;
+    padding: 0px;
+}
+
+#title2 {
+    text-align: left;
+}
+
+#work-school {
+    color: black;
+    opacity: 0.9;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Unica One', cursive; */
+}
+
+#contactinfo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.row1 {
+    text-align: center;
+}
+
+.fa-pagelines {
+    font-size: 20px;
+    color: hotpink;
+}
+
+.fa-laptop {
+    margin-top: 30px;
+    margin: 40px;
+    font-size: 40px; 
+    color: #6F666F;
+    cursor: pointer;
+}
+
+.fa-quote-left {
+    font-size: 30px; 
+    margin-top: 40px; 
+}
+.fa-quote-right {
+    font-size: 30px; 
+    margin-top: 30px; 
+}
+
+.fa-address-card {
+    margin-top: 30px;
+    margin: 40px;
+    font-size: 40px; 
+    color: #6F666F;
+    cursor: pointer;
+}
+
+.fa-linkedin {
+    margin-bottom: 35px;
+    margin: 46px;
+    font-size: 40px; 
+    color: #6F666F;
+    cursor: pointer;
+}
+
+.fa-github {
+    margin-bottom: 35px;
+    margin: 46px;
+    font-size: 40px; 
+    color: #6F666F;
+    cursor: pointer;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    width: 130px;
+    height: 130px;
+    background: #E5F480;
+    opacity: 0.75; 
+    border-radius: 50%;
+    float: left; 
+    cursor: pointer;
+}
+
+#circle1:hover, .fa-laptop:hover {
+    background-color: #6F666F;
+    color: white; 
+    cursor: pointer;
+}
+
+#circle2:hover, .fa-address-card:hover {
+    background-color: #6F666F;
+    color: white; 
+    cursor: pointer;
+}
+
+#circle3:hover, .fa-linkedin:hover {
+    background-color: #6F666F;
+    color: white; 
+    cursor: pointer;
+}
+  
+#circle4:hover, .fa-github:hover {
+    background-color: #6F666F;
+    color: white; 
+    cursor: pointer;
+}
+
+.card-footer {
+    color:  black;;
+    font-size: 11px;
+    text-align: center;
+    background-color: white; 
+    opacity: 0.6; 
+}
+
+#contact {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px; 
+    float: left; 
+}
+
+.row3 {
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+#aboutmeinfo1 {
+    color: black;
+    background-color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    text-align: center;
+    padding: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+#imgbox {
+    margin-top: 40px; 
+    float: right; 
+}
+
+#bio {
+    color: #9439E3;
+    cursor: pointer;
+}
+
+#resume, .fa-file {
+    cursor: pointer;
+}
+
+#refresh-button1, #refresh-button2 {
+    background-color: white; 
+    opacity: 0.9; 
+    color: black; 
+}
+
+
+#section2 {
+    background-color:white; 
+}
+
+.saying2 {
+    font-family: 'Pacifico', cursive;
+    margin-top: 140px; 
+    text-align: center; 
+    font-size: 82px; 
+    color: #EF4EC4;
+    margin-left: 70px; 
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#saying1 {
+    font-family: 'Monoton', cursive;
+    font-size: 74px;
+    margin: auto; 
+    margin-top: 240px; 
+    text-align: center; 
+    color: black;
+}
+
+/* .fa-lightbulb {
+    font-size: 26px; 
+    margin-top: 30px; 
+    transform: rotate(-30deg);
+    color: black;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 greenyellow,
+		-1px 1px 0 greenyellow,
+		1px 1px 0 hotpink;
+} */
+
+/* #lb2 {
+    font-size: 60px; 
+    margin-top: 50px; 
+    transform: rotate(30deg);
+    color: darkgray; 
+} */
+
+.card {
+    margin: auto; 
+    margin-top: 30px; 
+}
+
+p {
+    text-align: center; 
+    font-size: 45px; 
+    font-family:  'Unica One', cursive;
+    margin-left: 70px; 
+    color: yellow;
+    background-color: white; 
+    opacity: 0.8; 
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#saying3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 62px; 
+    color: #428AE8;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    margin: auto; 
+    margin-top: 48px; 
+    text-align: right; 
+}
+
+#saying4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: auto; 
+    margin-top: 50px; 
+    text-align: right; 
+}
+
+#worksite {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px; 
+    color: white; 
+}
+
+#saying1, .img5:hover {
+    opacity: 0.8; 
+    cursor: pointer;
+}
+
+#link1:hover, #link2:hover, #link3:hover, #link4:hover, #link5:hover {
+    cursor: pointer;
+    border: 2px solid hotpink; 
+}
